@@ -1,0 +1,11 @@
+numpy
+pandas
+shapefile
+open3d
+scipy
+osgeo
+fiona
+rasterio
+earthpy
+cartopy
+matplotlib

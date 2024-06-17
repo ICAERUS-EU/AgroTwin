@@ -1,0 +1,35 @@
+[{
+    "title":"AGROTWIN",
+    "creator": "Agrobit srl",
+    "date": "21/06/2024",
+    "icon":"url for an image/icon for the algorithm",
+    "url":"url to the path of the github repository",
+    "icaerus_applications": ["crop-monitoring", "crop-spraying"],
+    "uses_cases":[1],
+    "extra":{
+        "usage/description": "A UAV-specific Python image processing library built upon scipy for a comprehensive analysis of vineyard point clouds to extract relevant features, and calculating descriptors such as canopy density, height, thickness, and optimal volume rate for spraying."
+    },
+    "filters":{
+        "content": [
+            "Machine learning",
+            "Deep learning",
+            "Point cloud",
+            "Framework",
+            "VLOS"
+            ],  
+        "data-type": [
+            "RGB images",
+            "Point cloud",
+            "csv"
+        ], 
+
+        "subject": [
+            "Vineyards"
+        ],
+
+        "location": [
+            "Italy"
+            ] 
+        }
+    }
+]
