@@ -1,9 +1,9 @@
 [{
-    "title":"AGROTWIN",
+    "title":"AgroTwin",
     "creator": "Agrobit srl",
     "date": "21/06/2024",
-    "icon":"url for an image/icon for the algorithm",
-    "url":"url to the path of the github repository",
+    "icon":"https://github.com/Agrobitsrl/AgroTwin/blob/main/docs/images/Extracted_portion.png",
+    "url":"https://github.com/Agrobitsrl/AgroTwin",
     "icaerus_applications": ["crop-monitoring", "crop-spraying"],
     "uses_cases":[1],
     "extra":{
@@ -14,6 +14,9 @@
             "Machine learning",
             "Deep learning",
             "Point cloud",
+            "VRT",
+            "Vigor",
+            "RGB",
             "Framework",
             "VLOS"
             ],  
