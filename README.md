@@ -49,7 +49,7 @@ For the correct elaboration we need to:
 - Select the sprayer type
 - Insert the inter-row distance (m)
   
-![pointcloud image](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/pointcloud.png?height=50)
+![pointcloud image](https://github.com/Agrobitsrl/AgroTwin/blob/main/docs/images/pointcloud.png?height=50)
 
 ### Vine extraction
 
@@ -58,7 +58,7 @@ For the correct elaboration we need to:
 - Rotate the point cloud to align the canopy to x-axis
 - Extract the vine in the interested bounds
   
-![extracted vine](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/Extracted_portion.png?height=10)
+![extracted vine](https://github.com/Agrobitsrl/AgroTwin/blob/main/docs/images/Extracted_portion.png?height=10)
 
 ### Soil modeling
 In the case of terracing, two adjacent inter-row paths can have different elevations.
@@ -98,12 +98,12 @@ Analysis:
 ### Results
 - After computing, the algorithm returns a csv (Results.csv) with all the parameters calculated:
 
-![results](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/results.png?height=50)
+![results](https://github.com/Agrobitsrl/AgroTwin/blob/main/docs/images/results.png?height=50)
 
 ### Output Maps (LAI, Volume Rate)
 - Create maps of LAI and optimized V_rate in .shp and .png format from the Results.csv file
 
-![Output](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/input_V_r.png?height=50)
+![Output](https://github.com/Agrobitsrl/AgroTwin/blob/main/docs/images/input_V_r.png?height=50)
 
 ## Installation
 It is built upon the work of `scipy`, `open3d` and a few more. For all the libraries see requirements.txt.
