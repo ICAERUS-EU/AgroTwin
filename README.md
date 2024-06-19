@@ -29,6 +29,7 @@
   * [Canopy density](#canopy-density)
   * [Canopy thickness, height and volume](#canopy-thickness-height-and-volume)
   * [Optimum volume rate (L/ha)](#optimum-volume-rate-lha)
+  * [Results](#results)
   * [Output Maps (LAI, Volume Rate)](#output-maps-lai-volume-rate)
 * [Installation](#installation)
 * [Authors](#authors)
@@ -94,8 +95,13 @@ Analysis:
 - Determine p Value Based on BBCH Stage and Sprayer Performance Factors
 - Calculate outputs (LAI, TRV, LWA, Volume rate)
 
+### Results
+- After computing, the algorithm returns a csv (Results.csv) with all the parameters calculated:
+
+![results](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/results.png?height=50)
+
 ### Output Maps (LAI, Volume Rate)
-- Create maps of LAI and optimized V_rate in .shp and .png format
+- Create maps of LAI and optimized V_rate in .shp and .png format from the Results.csv file
 
 ![Output](https://github.com/AntonioDonnangelo/AGROTWIN/blob/main/docs/images/input_V_r.png?height=50)
 
