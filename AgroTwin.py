@@ -14,16 +14,18 @@ import earthpy.plot as ep
 import cartopy.crs as ccrs
 import cartopy.io.img_tiles as cimgt
 
-# SELECT INPUT PARAMETERS
+# INPUT PARAMETERS
 shape_file = "Borders.shp" #Field borders shp format
 excel_input = pd.read_excel("Input_coordinates.xlsx", sheet_name='Sheet1') #select spreadsheet with coordinates UTM32N path
 cloud_input = "Input_pointcloud.ply" #select pointcloud path
 input_csv = "Results.csv" #Results in lat lon coordinates
+delta = 2.8  # inter-row (distance between two rows )
+x_max_vine = 0.8  # vine end point (cordon length)
+z_min_vine = 0.7  # trunk height from ground
 
-
+# Uncomment for selecting the phenological phase and the sprayer type
 #BBCH = "10-55" 
 BBCH = "55-71"  
-#BBCH == "55-71" 
 #BBCH == "71-89" 
 
 #SPRAYER_TYPE = "standard"  # conventional sprayer
@@ -33,12 +35,10 @@ SPRAYER_TYPE = "multi spout"
 #SPRAYER_TYPE = "recycling tunnel"
 
 
-delta = 2.8  # inter-row
-x_min_vine = 0  # vine start point (fixed value)
-x_max_vine = 0.8  # vine end point (cordon length)
+# FIXED VALUES
+x_min_vine = 0  # vine start point 
 y_min_vine = -1  # fixed value
 y_max_vine = 1  # fixed value
-z_min_vine = 0.7  # trunk height from ground
 z_max_vine = 10  # fixed value
 
 
